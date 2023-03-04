@@ -46,10 +46,7 @@ int runner::string_convert(std::string& input_line){
         if(state_op >= 8){ //RUN/LOAD/LIST/CLAER/HELP/QUIT
             is_cmd = true;
             return state_op;
-        }else{
-            //invalid
         }
-        //split input into tokens
 
 
         return INT_MIN;
